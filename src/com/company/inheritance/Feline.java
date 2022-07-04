@@ -31,4 +31,13 @@ public class Feline extends Animal {
     public static void count() {
         System.out.println("2");;
     }
+
+    @Override
+    public String toString() {
+        return "Feline{" +
+                "color='" + color + '\'' +
+                ", name='" + name + '\'' +
+                ", foot=" + foot +
+                '}';
+    }
 }

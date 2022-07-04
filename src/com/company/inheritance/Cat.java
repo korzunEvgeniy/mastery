@@ -25,4 +25,14 @@ public class Cat extends Feline {
     public static void count() {
         System.out.println("3");;
     }
+
+    @Override
+    public String toString() {
+        return "Cat{" +
+                "gender='" + gender + '\'' +
+                ", color='" + color + '\'' +
+                ", name='" + name + '\'' +
+                ", foot=" + foot +
+                '}';
+    }
 }
